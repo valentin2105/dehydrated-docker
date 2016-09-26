@@ -3,10 +3,10 @@
 
 Example :
 
-`docker run -v /tmp/domains.txt:/dehydrated/domains.txt \
--v /var/www/acme-challenge:/var/www/dehydrated \
--v /etc/certs:/dehydrated/certs \
-valentinnc/dehydrated -c`
+`docker run -v /tmp/domains.txt:/dehydrated/domains.txt \`
+`-v /var/www/acme-challenge:/var/www/dehydrated \`
+`-v /etc/certs:/dehydrated/certs \`
+`valentinnc/dehydrated -c`
 
 This example use 3 volumes :
 
