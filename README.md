@@ -23,4 +23,4 @@ This example use 3 volumes :
 
 You can override the **domains.txt** file using `-d example.com` flag to specify your domain. 
 
-You can override the default configuration using a volume : `-v /path/to/config:/dehydrated/config` and a flag `-f /dehydrated//config`
+You can override the default configuration using a volume : `-v /path/to/config:/dehydrated/config` and a flag `-f /dehydrated/config`
