@@ -20,3 +20,7 @@ This example use 3 volumes :
 - **/var/www/acme-challenge** is the folder for ACME challenge
 - **/tmp/domains.txt** is your domains list
 - **/etc/certs** where you get your certs
+
+You can override the **domains.txt** file using `-d example.com` flag to specify your domain. 
+
+You can override the default configuration using a volume : `-v /path/to/config:/dehydrated/config` and a flag `-f /dehydrated//config`
