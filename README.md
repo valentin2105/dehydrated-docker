@@ -3,6 +3,8 @@
 
 https://github.com/lukas2511/dehydrated
 
+`docker pull valentinnc/dehydrated`
+
 Example :
 
 `docker run --rm -v /tmp/domains.txt:/dehydrated/domains.txt \`
