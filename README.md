@@ -3,7 +3,7 @@
 
 https://github.com/lukas2511/dehydrated
 
-    This is a client for signing certificates with an ACME-server (currently only provided by letsencrypt) implemented as a relatively simple bash-script.
+### This is a client for signing certificates with an ACME-server (currently only provided by letsencrypt) implemented as a relatively simple bash-script.
 
 `docker pull valentinnc/dehydrated`
 
