@@ -5,7 +5,7 @@ https://github.com/lukas2511/dehydrated
 
 Example :
 
-`docker run -v /tmp/domains.txt:/dehydrated/domains.txt \`
+`docker run --rm -v /tmp/domains.txt:/dehydrated/domains.txt \`
 
 `-v /var/www/acme-challenge:/var/www/dehydrated \`
 
